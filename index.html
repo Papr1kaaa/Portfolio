@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" type="text/css" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Lato|Libre+Baskerville&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bangers&display=swap" rel="stylesheet">
     <script type="text/javascript" src="script.js"></script>
     <title>Portfolio</title>
 </head>
@@ -23,9 +24,9 @@
     </nav>
     <main>
         <header class = "hero" id="aboutMe">
-            <img src="images/selfphoto.png" alt="A picture of myself wearing over-sized clogs in Amsterdam" id="selfPhoto">
+            <img src="images/selfphoto.png" alt="A picture of myself wearing over-sized clogs in Amsterdam" class="sectionTop" id="selfPhoto">
         </header>
-        <section class = "mainBody">
+        <section class = "mainBody" id="aboutMeText">
             <h3>
                 About Me
             </h3>
@@ -38,10 +39,10 @@
             </p>
         </section>
         <section class = "mainBody" id = "portfolio">
-            <h3>
+            <h3 class="sectionTop">
                 Portfolio
             </h3>
-            <h3 class="projectTitle">
+            <h3 id="portfolioProject">
                 Lovecraft Quiz Web App
             </h3>
             <section class="projectFrame">
@@ -51,22 +52,34 @@
                 A short, interactive quiz web app that tests users on their knowledge of H.P. Lovecraft’s Cthulhu Mythos. 
             </p>
             <p>
-                Technologies used: HTML, CSS, JS, jQuery
+                Technologies used: <br/>HTML, CSS, JS, & jQuery
             </p>
-            <a href="https://github.com/Papr1kaaa/Lovecraft-Quiz-App">GitHub Repository</a>
-            <a href="https://papr1kaaa.github.io/">Live app</a>
+            <a href="https://github.com/Papr1kaaa/Lovecraft-Quiz-App" class = "projectLink">GitHub Repository</a>
+            <a href="https://papr1kaaa.github.io/" class = "projectLink">Live app</a>
         </section>
         <section class = "mainBody" id = "contactMe">
-            <h3>
+            <h3 class="sectionTop" id="contactHeader">
                 Contact Me
             </h3>
-            <p>
-                Lorem ipsum dolor amet messenger bag health goth lyft, vegan af lumbersexual man braid austin biodiesel. Waistcoat live-edge sartorial artisan. Yr ugh freegan craft beer PBR&B hashtag pour-over tumblr. Coloring book shabby chic deep v roof party wolf selfies pabst microdosing messenger bag butcher twee tofu kitsch hell of.
+            <p class='contactText'>
+                If you like my work, have any questions, or are just in need of a Dwarven Cleric named Larry to join your party, please contact me through one of the means below. 
             </p>
+            <a href="mailto: thoevel42@gmail.com" class="contactLink">
+                <img src="images/email logo.png" alt="letter icon for email" class="contactIcon">
+                E-mail
+            </a>
+            <a href="https://github.com/Papr1kaaa" class="contactLink">
+                <img src="images/github logo.png" alt="github logo" class="contactIcon">
+                GitHub
+            </a>
+            <a href="https://linkedin.com" class="contactLink">
+                <img src="images/linkedin logo.png" alt="linkedin logo" class="contactIcon">
+                LinkedIn
+            </a>
         </section>
     </main>
     <footer>
-        Footer
+        <p class="footerText">Thomas Hoevel</p>
     </footer>
 </body>
 </html>
