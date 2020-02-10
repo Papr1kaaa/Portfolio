@@ -47,7 +47,7 @@ a:hover {
     font-size: 18px;
 }
 
-h3 {
+h1 {
     text-decoration: underline;
 }
 
@@ -91,7 +91,6 @@ p {
 
 .projectFrame {
     position: relative;
-    background-color: mediumaquamarine;
     height: 60vh;
     width: 80%;
     margin: 1%;
@@ -104,8 +103,12 @@ p {
 }
 
 iframe {
+    display: none;
+}
+
+#lovecraftAppImage {
     height: 100%;
-    width: 100%;
+    border: 1px darkgray outset;
 }
 
 #contactMe {
@@ -136,11 +139,7 @@ iframe {
 }
 
 .contactIcon {
-    height: 7vh;
-    width: auto;
-    display: inline-flex;
-    flex-direction: column;
-    align-items: center;
+    height: 11vh;
 }
 
 footer {
@@ -184,11 +183,11 @@ section:nth-child(even) {
 
 .link {
     font-family: 'Libre Baskerville', serif;
-    font-size: 24px; 
+    font-size: 22px; 
 }
 
 .navLink {
-    margin-left: 18%;
+    margin-left: 13%;
     margin-top: 6%;
     margin-bottom: 6%;
     text-align: left;
@@ -221,12 +220,21 @@ header {
 
 .projectFrame {
     position: relative;
-    background-color: mediumaquamarine;
     height: 60vh;
     width: 40%;
     margin: 1%;
     margin-left: auto;
     margin-right: auto;
+}
+
+iframe {
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+#lovecraftAppImage {
+    display: none;
 }
 
 #contactHeader {
@@ -240,9 +248,19 @@ header {
 footer {
     padding-top: 1%;
     padding-bottom: 1%;
-    margin-left: 11%;
+    margin-left: 16%;
     margin-right: 1%;
     background-color: lightgray;
 }
 
+}
+
+@media (min-width: 1000px) {
+    .link {
+        font-size: 25px; 
+    }
+
+    .navLink {
+        margin-left: 18%;
+    }
 }

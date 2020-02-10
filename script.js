@@ -6,7 +6,7 @@ function scroll() {
           {
             scrollTop: $($(this).attr('href')).offset().top,
           },
-          1000,
+          500,
           'linear'
         )
       });

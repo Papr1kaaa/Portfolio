@@ -7,7 +7,6 @@
     <link rel="stylesheet" type="text/css" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Lato|Libre+Baskerville&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Bangers&display=swap" rel="stylesheet">
-    <script type="text/javascript" src="script.js"></script>
     <title>Portfolio</title>
 </head>
 <body>
@@ -27,26 +26,28 @@
             <img src="images/selfphoto.png" alt="A picture of myself wearing over-sized clogs in Amsterdam" class="sectionTop" id="selfPhoto">
         </header>
         <section class = "mainBody" id="aboutMeText">
-            <h3>
+            <h1>
                 About Me
-            </h3>
+            </h1>
             <p>
 	            Hello, I’m Thomas. I’m a web-developer who loves efficient and intuitive design. 
             </p>
             <p>
-	            I am a web developer and current Thinkful student. I love coding because I enjoy solving problems and creating user friendly designs. I am a strong proponent of efficient design that enables users to guide themselves through the application. 
+                I am a web developer and current Thinkful student. I love coding because I enjoy solving problems and creating user friendly designs. I am a strong proponent of efficient design that enables users to guide themselves through the application.
+                I am looking to join a team of great programmers and increase my skillset, while also bringing my strengths in teamwork and intragroup communication to the team.
                 When not coding, I enjoy motorcycles, music, and writing my own D&D campaigns. I also make a mean pots-de-creme.  
             </p>
         </section>
         <section class = "mainBody" id = "portfolio">
-            <h3 class="sectionTop">
+            <h1 class="sectionTop">
                 Portfolio
-            </h3>
-            <h3 id="portfolioProject">
+            </h1>
+            <h2 id="portfolioProject">
                 Lovecraft Quiz Web App
-            </h3>
+            </h2>
             <section class="projectFrame">
                 <iframe src="https://papr1kaaa.github.io/"></iframe>
+                <img src="images/LovecraftApp.png" alt="The start page for the Lovecraft quiz app. It features the great dreamer Cthulhu rising from the depths of the ocean." id="lovecraftAppImage">
             </section>
             <p>
                 A short, interactive quiz web app that tests users on their knowledge of H.P. Lovecraft’s Cthulhu Mythos. 
@@ -58,22 +59,22 @@
             <a href="https://papr1kaaa.github.io/" class = "projectLink">Live app</a>
         </section>
         <section class = "mainBody" id = "contactMe">
-            <h3 class="sectionTop" id="contactHeader">
+            <h1 class="sectionTop" id="contactHeader">
                 Contact Me
-            </h3>
+            </h1>
             <p class='contactText'>
                 If you like my work, have any questions, or are just in need of a Dwarven Cleric named Larry to join your party, please contact me through one of the means below. 
             </p>
-            <a href="mailto: thoevel42@gmail.com" class="contactLink">
-                <img src="images/email logo.png" alt="letter icon for email" class="contactIcon">
+            <a href="mailto:thoevel42@gmail.com" target="_blank" class="contactLink">
+                <img src="images/emaillogo.png" alt="letter icon for email" class="contactIcon">
                 E-mail
             </a>
-            <a href="https://github.com/Papr1kaaa" class="contactLink">
-                <img src="images/github logo.png" alt="github logo" class="contactIcon">
+            <a href="https://github.com/Papr1kaaa" target="_blank" class="contactLink">
+                <img src="images/githublogo.png" alt="github logo" class="contactIcon">
                 GitHub
             </a>
-            <a href="https://linkedin.com" class="contactLink">
-                <img src="images/linkedin logo.png" alt="linkedin logo" class="contactIcon">
+            <a href="https://linkedin.com" target="_blank" class="contactLink">
+                <img src="images/linkedinlogo.png" alt="linkedin logo" class="contactIcon">
                 LinkedIn
             </a>
         </section>
@@ -81,5 +82,8 @@
     <footer>
         <p class="footerText">© Thomas Hoevel 2020</p>
     </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+    <script src="script.js"></script>
 </body>
 </html>
