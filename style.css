@@ -185,6 +185,7 @@ section:nth-child(even) {
     
     .contactLink {
         font-size: 18px;
+    }
 
     .contactIcon {
         height: 6vh;
@@ -284,7 +285,12 @@ iframe {
 }
 
 .contactLink {
-    font-size: 22px;
+    font-size: 20px;
+}
+
+.contactIcon {
+    height: 10vh;
+}
 
 footer {
     padding-top: 1%;
