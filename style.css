@@ -161,13 +161,23 @@ section:nth-child(even) {
 
 /*MEDIA QUERY BELOW*/
 
-@media (max-width: 350px) {
+@media (max-width: 380px) {
     #aboutMeText {
         font-size: 11px;
     }
 
     .projectFrame {
         height: 50vh;
+    }
+    
+    .contactLink {
+        display: inline-flex;
+        flex-direction: column;
+        padding: 3%;
+        font-size: 18px;
+
+    .contactIcon {
+        height: 6vh;
     }
 }    
 
