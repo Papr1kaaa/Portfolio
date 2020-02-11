@@ -133,7 +133,7 @@ iframe {
     display: inline-flex;
     flex-direction: column;
     padding: 3%;
-    font-size: 22px;
+    font-size: 20px;
 }
 
 .contactIcon {
@@ -161,9 +161,22 @@ section:nth-child(even) {
 
 /*MEDIA QUERY BELOW*/
 
-@media (max-width: 380px) {
+@media (min-width: 300px) {
     #aboutMeText {
-        font-size: 11px;
+        font-size: 10px;
+    }
+
+    .hero {
+        height: 50vh;
+    }
+    
+    #selfPhoto {
+        height: 40vh;
+    }
+    
+    #aboutMeText {
+        font-size: 12px;
+        height: 50vh;
     }
 
     .projectFrame {
@@ -171,9 +184,6 @@ section:nth-child(even) {
     }
     
     .contactLink {
-        display: inline-flex;
-        flex-direction: column;
-        padding: 3%;
         font-size: 18px;
 
     .contactIcon {
@@ -225,7 +235,17 @@ header {
 }
 
 .hero {
+    height: 55vh;
     padding: 3%;
+}
+
+#selfPhoto {
+    height: 40vh;
+}
+
+#aboutMeText {
+    font-size: 18px;
+    height: 45vh;
 }
 
 .mainBody {
@@ -262,6 +282,9 @@ iframe {
 .contactText {
     margin-top: 3%;
 }
+
+.contactLink {
+    font-size: 22px;
 
 footer {
     padding-top: 1%;
